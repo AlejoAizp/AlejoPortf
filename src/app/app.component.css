@@ -1,0 +1,389 @@
+body{
+  height: 100%;
+  width: 100%;
+ background-image: url(https://fondosmil.com/fondo/10816.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+overflow-x: hidden;
+}
+
+.Title{
+  position: sticky;
+  top: 0;
+  width:100%;
+  height: 10vh;
+  background-image:url(https://fondosmil.com/fondo/10816.jpg);
+  z-index: 100;
+ }
+
+
+ h1{
+  font-family: 'Roboto Mono', monospace; 
+  text-align: center;
+  font-size: 5vh;
+ }
+
+
+
+ h2{
+  font-family: 'Roboto Mono', monospace; 
+ }
+
+
+#NombreUsuario {
+ display: inline-block;
+ text-transform: lowercase;
+ font-weight: bold;
+}
+
+
+#NombreUsuario::first-letter{
+  display: inline-block;
+  text-transform:uppercase;
+ 
+ }
+
+
+#background {
+  height: 100%;
+  width: 100%;
+ background-image: url(https://fondosmil.com/fondo/10816.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+position: absolute;  
+outline: none;
+border: none;
+
+ }
+
+ input {
+  outline: none;
+  border: none;
+  border: 1px solid white;
+ }
+
+
+.ingreso {
+  text-align: center;
+  margin-top: 50vh;
+  color: white;
+  
+  
+ }
+
+ #Ocultar{
+ margin-left: 2vh;
+ height: 4.9vh;
+ margin-top: 1vh;
+ background-color: transparent; 
+ color: white;
+ font-family: 'Roboto Mono', monospace; 
+ }
+
+
+ .mat-success {
+  background-color: green;
+  color: #fff;
+}
+
+
+.Image1 {
+  background-image: url(Me1.png);
+height: 80vh;
+width: 100vh;
+background-size: cover;
+margin-left: auto;
+margin-right: auto;
+}
+
+.MiTexto{
+color: white;
+text-align: center;
+font-size: 4vh;
+font-family: 'Roboto Mono', monospace; 
+
+}
+.MiTextoCelular{
+  color: white;
+  text-align: center;
+  font-size: 4vh;
+  font-family: 'Roboto Mono', monospace; 
+  display: none;
+  
+  }
+
+
+
+.Img1Celular{
+  background-image: url(Me1.png);
+  width: 100vw;
+  height:50vh;
+  display: none;
+  background-size: cover;
+
+ }
+ 
+ .html{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1216/1216733.png);
+  height: 20vh;
+  width: 20vh;
+  background-size: cover;
+  display: inline-block;
+ }
+
+ .html:hover{
+  background-image: url(medioaltonivel.png);
+  animation: muestraDatos 200ms ease-in-out both ;
+ }
+
+
+
+
+ .css{
+background-image: url(https://cdn-icons-png.flaticon.com/512/732/732190.png);
+height: 20vh;
+width: 20vh;
+background-size: cover;
+display: inline-block;
+ }
+
+ .css:hover{
+  background-image: url(medioaltonivel.png);
+  animation: muestraDatos 200ms ease-in-out both ;
+ }
+
+.js{
+  background-image: url(https://images.vexels.com/media/users/3/166403/isolated/lists/a5a33bf3004830a2bd581e9fa65de660-icono-del-lenguaje-de-programacion-javascript.png);
+  height: 20vh;
+  width: 20vh;
+  background-size: cover;
+  display: inline-block;
+}
+
+.js:hover{
+  background-image: url(nivelbasico.png);
+  animation: muestraDatos 200ms ease-in-out both ;
+ }
+
+
+.angular{
+  background-image: url(https://docs.angular.lat/assets/images/logos/angular/angular.png);
+  height: 20vh;
+  width: 20vh;
+  background-size: cover;
+  display: inline-block;
+}  
+
+.angular:hover{
+  background-image: url(intermedionivel.png);
+  animation: muestraDatos 200ms ease-in-out both ;
+ }
+
+
+.ts{
+  background-image: url(https://cdn.worldvectorlogo.com/logos/typescript-2.svg);
+  height: 20vh;
+  width: 20vh;
+  background-size: cover;
+  display: inline-block;
+}
+
+.ts:hover{
+  background-image: url(nivelbueno.png);
+  animation: muestraDatos 200ms ease-in-out both ;
+ }
+
+
+
+.csharp{
+  background-image: url(https://iconape.com/wp-content/png_logo_vector/c.png);
+  height: 20vh;
+  width: 20vh;
+  background-size: cover;
+  display: inline-block;
+}
+
+.csharp:hover{
+  background-image: url(nivelbueno.png);
+  animation: muestraDatos 200ms ease-in-out both ;
+ }
+
+.sqlserver{
+  background-image: url(https://www.latindevelopers.com/wp-content/uploads/2017/12/sql_icon-200x200.png);
+  height: 20vh;
+  width: 20vh;
+  background-size: cover;
+  display: inline-block;
+}
+
+.sqlserver:hover{
+  background-image: url(nivelbueno.png);
+  animation: muestraDatos 200ms ease-in-out both ;
+ }
+
+.bootstrap{
+  background-image: url(https://play-lh.googleusercontent.com/eof_QbMfhJxAiqbE2ESWwb1-qJ7Zu6yKbESiUaEs9CfuUA1oxDW0374FVYP6cnZLmw);
+  height: 20vh;
+  width: 20vh;
+  background-size: cover;
+  display: inline-block;
+}
+
+.bootstrap:hover{
+  background-image: url(nivelbueno.png);
+  animation: muestraDatos 200ms ease-in-out both ;
+ }
+
+.github{
+  background-image: url(https://img.icons8.com/color-glass/480/github.png);
+  height: 20vh;
+  width: 20vh;
+  background-size: cover;
+  display: inline-block;
+}
+
+.github:hover{
+  background-image: url(nivelbueno.png);
+  animation: muestraDatos 200ms ease-in-out both ;
+ }
+
+.Iconos {
+  text-align: center;
+}
+
+
+.LenguajesDom{
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace; 
+  padding-top: 4vh;
+}
+
+.LenguajesDomContainer{
+  height:20vh;
+  width: 100%;
+ 
+}
+.contactamecontainer{
+  height: 25vh;
+  width: 100%;
+}
+.contactame{
+  color: white;
+  font-family: 'Roboto Mono', monospace; 
+  text-align: center;
+  font-size: 8vh;
+  padding-top: 5vh;
+}
+
+.contactoimagenes{
+  text-align: center;
+}
+.instagram{
+  background-image: url(instagram.svg);
+  height: 10vh;
+  width: 10vh;
+  background-size: cover;
+  float: right;
+  opacity: .5; 
+  position: absolute;
+  top: 73%;
+  left: 93.3%;
+}
+.whatsapp{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/800px-WhatsApp.svg.png);
+  height: 12vh;
+  width: 12vh;
+  background-size: cover;
+  float: right;
+  opacity: .5; 
+  position: absolute;
+  top: 85%;
+  left: 93%;
+}
+
+.instagram:hover{
+  opacity: 1;
+}
+.whatsapp:hover{
+  opacity: 1;
+}
+
+
+
+.ContainerForm{
+height: 62vh;
+width: 60vw;
+margin-left: auto;
+margin-right: auto;
+opacity: .7;
+font-family: 'Cormorant SC', serif;
+outline: none;
+border: none;
+
+color: white;
+}
+
+#nombre{
+  opacity: 1;
+}
+
+#email{
+  opacity: 1;
+}
+
+#mensaje{
+height: 30vh;
+resize: none;
+opacity: 1;
+}
+
+#button{
+color: black;
+margin-top: 1vh;
+opacity: 1;
+font-family: 'Roboto Mono', monospace; 
+
+}
+
+.openModal { 
+
+ 
+
+  text-decoration: none; 
+  color: white; 
+}
+
+
+
+
+
+
+@keyframes muestraDatos{     
+
+  from{opacity: 0;}
+  to {opacity: 1;}
+  
+  } 
+
+
+
+  @media (max-width:800px){
+
+    .ImagenesYo1{
+      display: none;
+    }
+
+    .Img1Celular{
+      display: block;
+    }
+
+
+
+
+
+
+  }
+
+
